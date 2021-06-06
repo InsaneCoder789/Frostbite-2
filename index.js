@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const {MessageEmbed} = require('discord.js')
 const mongoose = require('mongoose')
- mongoose.connect('mongodb+srv://Insanecoder789:Rahul@5111@cluster0.47kul.mongodb.net/test', {
+ mongoose.connect('Your Mongo Url!', {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false 
@@ -18,7 +18,7 @@ const { join } = require('path');
 
 //levels
 const Levels = require('discord-xp');
-Levels.setURL("mongodb+srv://Insanecoder789:Rahul@5111@cluster0.47kul.mongodb.net/test")
+Levels.setURL("Your Mongo URL")// If You dont know how to setup a Mongo Database Please Visit the Readme in the 1st File (FRostbite 1)
 
 
 
